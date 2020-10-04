@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cardview_dark_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="411dp"
+        android:layout_height="74dp"
+        android:background="@android:color/holo_red_light"
+        android:text="VIOLET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="GREEN"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:text="BLUE"
+        app:layout_constraintBottom_toBottomOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/holo_purple"
+        android:text="INDIGO"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="94dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:text="ConstrainLayoutTest"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="90dp"
+        android:layout_height="71dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ORIANGE"
+        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:background="@color/cardview_light_background"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/cardview_dark_background"
+            android:text="Hello,TableLayout" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:gravity="start"
+            android:text="Open" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:gravity="end"
+            android:text="Ctrl+O" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:text="Save"
+            android:gravity="start"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:gravity="end"
+            android:text="Ctrl+S" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:text="Save As"
+            android:gravity="start"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:gravity="end"
+            android:text="Ctrl+shift+S" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:text="Import"
+            android:gravity="start"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:text="Export"
+            android:gravity="start"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:gravity="end"
+            android:text="Ctrl+E" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="@android:integer/status_bar_notification_info_maxnum"
+            android:text="Quit"
+            android:gravity="start"/>
+    </TableRow>
+</TableLayout>
