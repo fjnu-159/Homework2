@@ -28,18 +28,18 @@
  
      1.线性布局
      
-     ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main1.png)
+  ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main1.png)
      
-     ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/%E7%BA%BF%E6%80%A7%E5%B8%83%E5%B1%80.png)
+  ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/%E7%BA%BF%E6%80%A7%E5%B8%83%E5%B1%80.png)
      
      2.约束性布局（ConstraintLayout）
      
-     ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main2.png)
+   ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main2.png)
      
-     ![image text](项目截图/ConstraintLayout.png)
+   ![image text](项目截图/ConstraintLayout.png)
      
      3.表格布局
      
-     ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main3.png)
+   ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/main3.png)
      
-     ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/%E8%A1%A8%E6%A0%BC%E5%B8%83%E5%B1%80.png)
+   ![image text](https://github.com/fjnu-159/Homework2/blob/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/%E8%A1%A8%E6%A0%BC%E5%B8%83%E5%B1%80.png)
